@@ -78,15 +78,13 @@
 	text-align: left;
 }
 #profilePic{
-	padding-top: 150px;
+	margin-top: 150px;
 	width: 240px;
 	height:240px;
 	border: .5px solid teal;
 	border-radius: 150px;
 }
-#profilePic:hover{
-	
-}
+
 html{
 	width:100%;
 	height:100%;
