@@ -7,7 +7,16 @@
 	cursor: pointer;
 	font-size: 20px;
   }
-  
+
+  .mail{
+	  font-size: 30px;
+	  text-decoration: none;
+	color: white;
+	letter-spacing:2px;
+  }
+  .mail:hover{
+	 color: rgba(36, 114, 97, 0.768);
+  }
   /* Darker background on mouse-over */
   .btn:hover {
 	background-color: RoyalBlue;
@@ -74,6 +83,9 @@
 	height:240px;
 	border: .5px solid teal;
 	border-radius: 150px;
+}
+#profilePic:hover{
+	
 }
 html{
 	width:100%;
