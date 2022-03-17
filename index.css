@@ -1,4 +1,18 @@
 
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
+
 #blinkit{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	/* font-weight: bold; */
@@ -17,19 +31,49 @@
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	letter-spacing: 2px;
 	font-weight: bold;
+	font-size: 70px;
+	color: rgb(252, 252, 252);
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+
+}
+#greeting1{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255, 255, 255, 0.926);
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	row-gap: 0;
+}
+#greeting2{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
 	font-size: 40px;
-	color: whitesmoke;
+	color: rgb(136, 238, 19);
+	font-family: 'Marck Script', cursive;
+	text-align: center;
 }
 #subGreeting{
 
 	font-family: 'Marck Script', cursive;
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 60px;
+	color: rgb(255, 255, 255);
 }
 #home{
 	font-size: 18px;
 	text-align: left;
+}
+#profilePic{
+	margin-top: 10px;
+	width: 240px;
+	height:240px;
+	border: .5px solid teal;
+	border-radius: 150px;
 }
 html{
 	width:100%;
@@ -114,6 +158,7 @@ a:hover,a:focus{
 {
     outline: none;
     background-color: teal;
+	
 	color: whitesmoke;
 	
 }
