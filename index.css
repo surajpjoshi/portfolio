@@ -1,13 +1,18 @@
 #profileImg{
 display: flex;
-justify-content:space-between ;
+justify-content:space-between;
+}
+#click:hover{
+
+	color: rgba(214, 3, 3, 0.945);
+	/* background-color: red; */
 }
 #nab{
 	background-image: url("data:image/jpeg;base64,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");
 }
 .projects{
 	text-decoration:none;
-	background-color:teal;
+	background-color:rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 	font-size : 30px;
 	border:none;
@@ -16,12 +21,12 @@ justify-content:space-between ;
 .projects:hover{
 	text-decoration:none;
 	background-color:teal;
-	color: white;
+	color: rgb(248, 0, 0);
 	font-size : 30px;
 	border:none;
 }
 .btn {
-	background-color: DodgerBlue;
+	/* background-color: DodgerBlue; */
 	border: none;
 	color: white;
 	padding: 12px 30px;
@@ -36,11 +41,13 @@ justify-content:space-between ;
 	letter-spacing:2px;
   }
   .mail:hover{
-	 color: rgba(36, 114, 97, 0.768);
+	 /* color: rgba(36, 114, 97, 0.768); */
+	 color: red;
   }
   /* Darker background on mouse-over */
   .btn:hover {
-	background-color: RoyalBlue;
+	/* background-color: RoyalBlue; */
+	color: red;
   }
 
 #blinkit{
