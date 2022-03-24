@@ -20,23 +20,23 @@
   <script src="index.js"></script>
  
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" id="nab">
   <nav class="navbar navbar-custom navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header page-scroll">
+    <div class="container" >
+      <div class="navbar-header page-scroll" >
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#top">Home</a>
+        <a  class="navbar-brand" id="home" href="#top">Home</a>
       </div>
       
       <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li class="hidden">
-            <a href="#page-top"></a>
+            <a href="#page-top" ></a>
           </li>
           <li class="page-scroll">
             <a href="#why">Tools</a>
@@ -56,22 +56,43 @@
     </div>
   </nav>
 
-  <section class="intro">
-    <div class="intro-body">
-      <div class="container">
-        <div class="row">
+  <section class="intro" >
+    <div class="intro-body" id="nab" >
+      <div class="container" >
+        <div class="row" id="profileImg">
           <div 
             class="brand-heading" 
             class="intro-text"
           class="col-md-8 col-md-offset-2">
-
-          <img id="profilePic" src="./documents/FINAL.jpg" alt="omthakur1224">
-            <p id="greeting">Hi, I'm Om Prakash</p>
-            <i id="greeting1">from</i>
-            <p id="greeting2"> from Himachal Pradesh,&nbsp;India</p>
-            <p id="subGreeting">This is my portfolio </p>
+              <div style="margin-top: 100px; margin-left: 0;" >
+                <p id="greeting">Hi, I'm Om Prakash</p>
+                <p id="greeting1">from Himachal Pradesh,&nbsp;India</p>
+               <p id="subGreeting">This is my portfolio </p>
+               </div>
           </div>
+          <div>
+            <!-- profile image -->
+          <img id="profilePic" src="./documents/FINAL.jpg" alt="omthakur1224">
+      
         </div>
+
+        <div  style="margin-top: 100px;">
+          
+          <li class="list-inline banner-social-buttons" >
+            <a href="https://github.com/omthakur1224" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+
+          <li class="list-inline banner-social-buttons" >
+          <a  href="https://linkedin.com/in/omthakur3404" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+          </li>
+         
+          <li class="list-inline banner-social-buttons">
+            <a class="btn btn-default btn-lg" href="./documents/Resume.pdf" download="Om's Resume.pdf">
+            <i class="fa fa-download"></i> Resume</a>
+          </li> 
+        </div>
+        </div>
+      
       </div>
       <a class="page-scroll" href="#why"><i class="fa fa-angle-double-down fa-2x arrow"></i></a>
     </div>
@@ -82,45 +103,45 @@
   <section id="why" class="container content-section">
     <h1 class="text-center">Tools of trade:</h1>
     
-    <div class="col-sm-4">
-      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a>
+    <div class="col-sm-4" style="width: 150px; height: 150px;">
+      <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="" height=""/> </a>
        </div>
  
 
-  <div class="col-sm-4">
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> 
+  <div class="col-sm-4" style="width: 150px; height: 150px;">
+    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="" height=""/> </a> 
     </div>
 
      
-    <div class="col-sm-4" >
+    <div class="col-sm-4" style="width: 150px; height: 150px;">
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a> 
       </div>
 
-    <div class="col-sm-4">
-   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/> </a>
+    <div class="col-sm-4" style="width: 150px; height: 150px;">
+   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="" height=""/> </a>
     </div>
   
            
-  <div class="col-sm-4">
+  <div class="col-sm-4" style="width: 150px; height: 150px;">
     <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="20" height="20"/> </a>
    </div> 
 
-      <div class="col-sm-4">
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <div class="col-sm-4" style="width: 150px; height: 150px;">
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="" height=""/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       </div>
 
        
-        <div class="col-sm-4">
-        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <div class="col-sm-4" style="width: 150px; height: 150px;">
+        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="" height=""/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
       </div>
 
-      <div class="col-sm-4">
-        <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      <div class="col-sm-4" style="width: 150px; height: 150px;">
+        <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="" height=""/> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
       </div>
   
 
-      <div class="col-sm-4">
-         <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="50" height="50"/> </a>
+      <div class="col-sm-4" style="width: 150px; height: 150px;">
+         <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="" height=""/> </a>
       </div>
 
   </section>
@@ -129,7 +150,9 @@
     <div class="who-section">
       <div class="container">
         <h2>Who am I?</h2>
-        <p class="lead">I'm an <strong>ambitious front-end developer</strong> currently based in Himachal, India. I'm passionate about new technologies and their possibilites. I live for variety, new experiences, and always strive for constant evolution.
+        <p class="lead">I am an <strong> M.E.R.N Stack Developer</strong> along with theoratical knowledge about SQL.
+          I am skilled in HTML, CSS, JavaScript along with MERN stack, which I have used in creating various projects. I also possess the knowledge about Data Structure & algorithm.
+          I am keen to start my career as a Full Stack Developer (frontend as well as backend developer) in a company that promotes the personal and professional growth of its employees while giving them the opportunities to use their skills and knowledge.
         </p>
 
       </div>
