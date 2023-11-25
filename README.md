@@ -10,6 +10,8 @@ sudo git clone https://github.com/surajpjoshi/portfolio.git
 cd portfolio
 sudo cp * /var/www/html/
 sudo service apache2 start
+http://<your-ec2-public-ip>
+
 
 
 Other commands - 
