@@ -1,5 +1,5 @@
 # portfolio
-Hi, This is Suraj Joshi a passionate Devops Engineer and this is my portfolio which includes all detail related to me. 
+Hi, here is Suraj Joshi, a dedicated Devops Engineer, and here is my portfolio, which covers everything information about me.
 
 
 Commands use to run app-
